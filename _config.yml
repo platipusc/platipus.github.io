@@ -13,30 +13,22 @@ color:
 # Footer settings
 footer:
   copyright: Platipus Consultoria
-  location: Location
-  social: Around the Web
-  credits: Credits
+  location: Onde estamos
+  social: Mídias sociais
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/platipusc
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/platipusc
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Rua Leopoldo Couto Magalhães Jr., 146
-  - line: Itaim Bibi, São Paulo, SP, CEP 04542-000
-
-# Credits content
-# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+  - line: Rua Leopoldo Couto Magalhães Jr.
+  - line: 146, 12o andar.
+  - line: Itaim Bibi, São Paulo, SP
+  - line: CEP 04542-000
 
 # Build settings
 markdown: kramdown
