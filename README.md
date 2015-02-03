@@ -1,30 +1,31 @@
-Agency Jekyll theme
-====================
+Jekyll Material Design 
+======================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Publish your static website/blog on GitHub Pages using Jekyll and Bootstrap 3 with a *"materialized"* style.
 
-# How to use
+This project is based on [Jekyll-Bootrap-3](https://github.com/dbtek/jekyll-bootstrap-3) and 
+[bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design). It includes also the [Paper theme](http://bootswatch.com/paper) from [Bootswatch.com](http://bootswatch.com).
 
-###Portfolio 
+## Usage
 
-Portfolio projects are in '/_posts'
+### 1. Create a Repo
+- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
 
-Images are in '/img/portfolio'
+### 2. Install Jekyll-Bootstrap-3  
+<pre>
+  <code>
+    $ git clone https://github.com/sentenza/jekyll-material-design USERNAME.github.io
+    $ cd USERNAME.github.io
+    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
+    $ git push origin master  
+  </code>
+</pre>  
+### 3. Enjoy !
+- After giving 10 mins to GitHub of course.  
 
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+For original project's usage and documentation please see the Wiki of this project.
 
 
-# Demo
+## License
 
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+[MIT](http://opensource.org/licenses/MIT)
