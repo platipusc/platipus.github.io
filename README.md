@@ -1,31 +1,31 @@
-Jekyll Material Design 
-======================
+Freelancer Jekyll theme
+=========================
 
-Publish your static website/blog on GitHub Pages using Jekyll and Bootstrap 3 with a *"materialized"* style.
+Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/templates/freelancer/)
 
-This project is based on [Jekyll-Bootrap-3](https://github.com/dbtek/jekyll-bootstrap-3) and 
-[bootstrap-material-design](https://github.com/FezVrasta/bootstrap-material-design). It includes also the [Paper theme](http://bootswatch.com/paper) from [Bootswatch.com](http://bootswatch.com).
+## How to use
+ - Place a image in `/img/portoflio/`
+ - Create posts to display your projects. Use the follow as an example:
+```txt
+---
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: cabin.png
+alt: image-alt
+project-date: July 2014
+client: The Client
+category: Web Development
+description: The description of the project
 
-## Usage
+---
+```
 
-### 1. Create a Repo
-- Go to <https://github.com> and create a new repository named *USERNAME.github.io*  
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
 
-### 2. Install Jekyll-Bootstrap-3  
-<pre>
-  <code>
-    $ git clone https://github.com/sentenza/jekyll-material-design USERNAME.github.io
-    $ cd USERNAME.github.io
-    $ git remote set-url origin git@github.com:USERNAME/USERNAME.github.io.git
-    $ git push origin master  
-  </code>
-</pre>  
-### 3. Enjoy !
-- After giving 10 mins to GitHub of course.  
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
 
-For original project's usage and documentation please see the Wiki of this project.
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+=========
+For more details, read the [documentation](http://jekyllrb.com/)
