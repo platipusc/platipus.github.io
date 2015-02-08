@@ -180,7 +180,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
