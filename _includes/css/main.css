@@ -259,7 +259,7 @@ section.success {
     font-size: 20px;
     color: #fff;
     background: 0 0;
-    transition: all .3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .btn-outline:hover,
@@ -267,7 +267,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
     background: #fff;
 }
 
@@ -324,7 +324,7 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #{{ site.color.secondary-dark }};
 }
 
 footer {
