@@ -45,7 +45,8 @@ graph <- graph + ylab("Demanda (R$)") + xlab("Ano")
 # change the colour of the lines
 graph <- graph + scale_colour_brewer("Legend", palette = "Set1")
 # the result:
-p <- graph + guides(colour=F)
+p <- graph + guides(colour=F) + theme_bw() + theme(axis.text.x=element_text(angle=45, hjust=1, vjust=1, size = 13),
+                                                   axis.text.y=element_text(size=13))
 
 ggsave('img/portfolio/forecasting.png', p, width=9, height=6.5, dpi=100)
 
