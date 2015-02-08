@@ -8,7 +8,7 @@ description: "Platipus Consultoria que aparece no Google."
 color:
   primary: E5E5E5 #80B3FF
   secondary: 05112E #FD6E8A
-  secondary-dark: 030A1C #A2122F
+  secondary-dark: D0CA11 #A2122F
 
 # Footer settings
 footer:
