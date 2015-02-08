@@ -54,6 +54,20 @@ ggsave('img/portfolio/forecasting.png', p, width=9, height=6.5, dpi=100)
 
 ## prova
 
+library(CausalImpact)
+x1 <- 100 + arima.sim(model = list(ar = 0.999), n = 100)
+y <- 1.2 * x1 + rnorm(100)
+y[71:100] <- y[71:100] + 10
+data <- cbind(y, x1)
+pre.period <- c(1, 70)
+post.period <- c(71, 100)
+impact <- CausalImpact(data, pre.period, post.period)
+p <- plot(impact, c("original", "pointwise"))
+p
+ggsave('img/portfolio/prova.png', p, width=9, height=6.5, dpi=100)
+
 ## desempenho
+
+
 
 ## inteligencia
