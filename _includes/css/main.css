@@ -37,6 +37,10 @@ h6 {
     color: #{{ site.color.secondary-dark }};
 }
 
+h2 {
+  color: #{{ site.color.secondary }};
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
