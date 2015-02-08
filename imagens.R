@@ -60,7 +60,7 @@ p <- ggplot() +
   geom_polygon(aes(x=c(-.375, 0, .375), y=c(-1, -.8, -1)), fill='transparent', colour='black', size=s) +
   geom_polygon(aes(x=c(-.875, -.625, -.375), y=c(.2, .5, .2)), fill='transparent', colour='black', size=s) +
   geom_polygon(aes(x=c(.375, .625, .875), y=c(.2, .5, .2)), fill='transparent', colour='black', size=s) +
-  theme(axis.text=element_blank())
+  theme(axis.title=element_blank())
 ggsave('img/portfolio/estrategia.png', p, width=9, height=6.5, dpi=100)
 
 
