@@ -2,12 +2,12 @@
 layout: default
 modal-id: 4
 date: 2014-07-15
-img: game.png
+img: estratégia.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-title: Estratégia jurídica.
+title: Estratégia jurídica
 description: Para mitigar riscos e reduzir custos, a Platipus realiza análises do histórico de processos do cliente e sugere as melhores estratégias para acordos e defesas.
 
 ---
