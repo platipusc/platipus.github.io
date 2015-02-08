@@ -6,7 +6,7 @@ img: cake.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Forecasting
+title: Forecasting
 description: A Platipus desenvolve modelos preditivos para estimação de contingência futura e custos esperados, possibilitando provisões mais acuradas.
 
 ---

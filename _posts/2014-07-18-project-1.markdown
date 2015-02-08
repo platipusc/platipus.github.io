@@ -7,7 +7,7 @@ alt: image-alt
 project-date: A pril 2014
 client: Start Bootstrap
 category: Web Development
-title: Plataforma de Visualização de dados
+title: Plataforma de Visualização
 description: A Plataforma de visualização é a ferramenta básica de trabalho da Platipus. Trata-se de uma interface gráfica com dashboards inteligentes para visualização dos dados, indicadores e modelos.
 
 ---
