@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    color: #{{ site.color.secondary-dark }};
 }
 
 p {
@@ -35,6 +34,7 @@ h6 {
     /*text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-light,
