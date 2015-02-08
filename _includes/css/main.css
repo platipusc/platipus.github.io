@@ -58,21 +58,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #{{ site.color.secondary }};
+    border-color: #{{ site.color.secondary-dark }};
 }
 
 hr.star-light:after {
-    color: #{{ site.color.secondary }};
-    background-color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary-dark }};
+    background-color: #fff;
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.primary }};
+    border-color: #{{ site.color.secondary }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.primary }};
-    background-color: #fff;
+    color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.primary }};
 }
 
 .img-centered {
