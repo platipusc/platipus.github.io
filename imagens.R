@@ -52,6 +52,18 @@ ggsave('img/portfolio/forecasting.png', p, width=9, height=6.5, dpi=100)
 
 ## estrategia
 
+s <- 1
+p <- ggplot() +
+  geom_blank(aes(x=seq(-1.38, 1.38, length.out = 100), y=seq(-1,1, length.out = 100)), size=s) +
+  geom_segment(aes(x=0, xend=0, y=-.8, yend=1), size=s) +
+  geom_segment(aes(x=-.625, xend=.625, y=.5, yend=.5), size=s) +
+  geom_polygon(aes(x=c(-.375, 0, .375), y=c(-1, -.8, -1)), fill='transparent', colour='black', size=s) +
+  geom_polygon(aes(x=c(-.875, -.625, -.375), y=c(.2, .5, .2)), fill='transparent', colour='black', size=s) +
+  geom_polygon(aes(x=c(.375, .625, .875), y=c(.2, .5, .2)), fill='transparent', colour='black', size=s) +
+  theme(axis.text=element_blank())
+ggsave('img/portfolio/estrategia.png', p, width=9, height=6.5, dpi=100)
+
+
 ## prova
 
 library(CausalImpact)
@@ -68,6 +80,6 @@ ggsave('img/portfolio/prova.png', p, width=9, height=6.5, dpi=100)
 
 ## desempenho
 
-
+### IMAGEM SEPARADA
 
 ## inteligencia
