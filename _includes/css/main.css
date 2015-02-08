@@ -99,7 +99,7 @@ header img {
 header .intro-text .name {
     display: block;
     /*text-transform: uppercase;*/
-    font-family: "Trebuchet MS", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Trebuchet MS", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -107,6 +107,9 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    font-family: "Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #{{  site.color.secondary  }};
+
 }
 
 @media(min-width:768px) {
