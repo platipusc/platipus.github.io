@@ -6,7 +6,7 @@ img: desempenho.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Métricas de desempenho
+title: Métricas de desempenho
 description: A Platipus desenvolve e disponibiliza métricas de desempenho em tempo real, para avaliação de escritórios, acompanhamento de metas e tomada de decisões estratégicas.
 
 ---
