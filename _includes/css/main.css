@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     /*text-transform: uppercase;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #{{ site.color.secondary-dark }};
 }
@@ -157,7 +157,7 @@ header .intro-text .skills {
 
 .navbar {
     /*text-transform: uppercase;*/
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
