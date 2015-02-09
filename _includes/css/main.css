@@ -265,7 +265,7 @@ section.success {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
-    background: 0 0;
+    background: 0 0z;
     transition: all 1s ease-in-out;
 }
 
@@ -371,6 +371,10 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+}
+
+.btn-success {
+  background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn:focus,
