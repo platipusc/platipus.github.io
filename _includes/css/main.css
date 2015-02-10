@@ -212,8 +212,8 @@ section.success {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 390px;
-    /*box-shadow: 0px 10px 5px #AAAAAA;*/
+    max-width: 360px;
+    box-shadow: 0px 10px 5px #AAAAAA;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
