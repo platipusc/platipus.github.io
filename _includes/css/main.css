@@ -159,7 +159,7 @@ header .intro-text .skills {
     /*text-transform: uppercase;*/
     font-family: "Trebuchet MS","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    /*box-shadow: 0px 10px 10px #AAAAAA;*/
+    box-shadow: 0px 10px 10px #AAAAAA;
 }
 
 .navbar a:focus {
