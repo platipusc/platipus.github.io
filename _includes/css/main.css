@@ -101,7 +101,7 @@ header img {
 }
 
 header .intro-text .name {
-    display: block;
+    /*display: block;*/
     /*text-transform: uppercase;*/
     font-family: "Trebuchet MS", "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
